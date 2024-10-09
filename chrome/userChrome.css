@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+
+
+/* Main Variables */
+:root {
+    --mainColour: #000000;
+    --tab-curve-width: 2px;
+    --tab-border-radius: 15px 15px 0px 0px !important;
+    --urlbar-container-padding: 0px !important;
+    --urlbar-margin-inline: 10px !important;
+    --urlbar-icon-border-radius: 15px !important;
+    --toolbarbutton-outline: 10px !important;
+    --inline-tab-padding: 10px !important;
+    --tab-selected-bgcolor: #1c1b22 !important;
+    --toolbar-field-background-color: rgb(28, 25, 28) !important;
+    --toolbar-field-focus-background-color: rgb(37, 36, 37) !important;
+    --chrome-content-separator-color: var(--mainColour) !important;
+    --toolbar-bgcolor: var(--mainColour) !important;
+    --focus-outline-width: 2.5px !important;
+    --focus-outline-color: white !important;
+    
+}
+
+/* URL BAR */
+
+#urlbar-background {
+    border-color: none !important;
+    background-color: transparent !important;
+}
+
+#urlbar-background, #urlbar {
+    align-items: center;
+    border-radius: 12px !important;
+
+}
+
+#urlbar {
+    text-align: center;
+    border-radius: 0px;
+    border: 0px;
+    border-color: none !important;
+}
+
+.urlbar-page-action,
+.urlbar-revert-button,
+.urlbar-go-button,
+.search-go-button{
+    border-radius: 15px;
+}
+.urlbarView-url {
+    text-align: left;
+}
+
+
+
+.urlbarView-results {
+    text-align: center;
+}
+
+
+
+
+/* Sidebar */
+#sidebar-main {
+    background-color: var(--mainColour) !important;
+}
+
+.sidebar-splitter {
+    border: none !important;
+}
+
+/* Remove Bookmark Toolbar */
+#PersonalToolbar {
+    display: none !important;
+}
+
+/* Tabs */
+
+.tabbrowser-arrowscrollbox-periphery {
+    border-radius: 15px !important;
+}
+
+.tab-close-button {
+    border-radius: 15px !important;
+}
+
+#new-tab-button {
+    border-radius: 15px !important;
+}
+
+.search-handoff-button {
+    opacity: 0;
+}
+
+#contentAreaContextMenu {
+    border-radius: 0px !important;
+}
+
+#TabsToolbar {
+    background-color: var(--mainColour) !important;
+}
+
+#nav-bar {
+    background-color: var(--mainColour) !important;
+}
+
+/* Misc */
+#identity-box.extensionPage #identity-icon-label {
+	display: none !important;
+    
+}
+
+#identity-box{
+    display: none !important;
+}
+
+#alltabs-button { 
+    display: none !important; 
+}
+
+.titlebar-spacer[type="post-tabs"] {  
+    display: none !important; 
+}
+
+
+/* Right click menu */
+
+menupopup,
+.menupopup-arrowscrollbox {
+    border-radius: 10px !important;
+}
