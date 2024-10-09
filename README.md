@@ -4,7 +4,7 @@ Firefox-CSS Noir (Noir) is a simple CSS modification for Firefox made by FlagHat
 
 ## Image:
 
-![Flag](img\firefoxCSSPreview01.png)
+![Flag](img/firefoxCSSPreview01.png)
 
 ## Notes:
 
