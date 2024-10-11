@@ -7,7 +7,7 @@ Firefox-CSS Noir (Noir) is a simple CSS modification for Firefox made by FlagHat
 ![Flag](img/firefoxCSSPreview01.png)
 ![Flag](img/firefoxCSSPreview0.1.1.png)
 
-
+#### (Images are on Firefox Nightly, with vertical tabs enabled. Works perfectly fine with base Firefox however). 
 ## Notes:
 
 Noir was made and developed in Firefox Nightly with the purpose of making the vertical tabs look nicer. However, it works and still looks good even with horizontal tabs.
