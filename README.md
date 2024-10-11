@@ -53,5 +53,8 @@ New Tab theme is with [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/t
 9. Restart Firefox
 10. Done!
 
+(If you would like the "expand sidebar" menu to be a Firefox logo svg, just download the Firefox svg in ``img/`` and place that in your `chrome` folder.)
+
+
 ## Issues/Suggestions
 If an issue or a bug is found, please create an issue! I will try my best to re-write something. Please note that this is my first Firefox CSS theme, and so it may not be the most organised or efficient. Feel free to suggest any changes/modifications in either  "pull-requests", or even in "issues"! Feedback is greatly appreciated! 
