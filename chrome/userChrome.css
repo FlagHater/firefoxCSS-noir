@@ -8,8 +8,12 @@
 
 /* Main Variables */
 :root {
-    --mainColour: #000000;
-    --tab-curve-width: 2px;
+    /* Custom Variables */
+    --noir-main-colour: #000000;
+    --noir-secondary-colour: #ffff;
+    --noir-main-transparent-colour: rgb(0,0,0, .5);
+
+    --tab-curve-width: 12px;
     --tab-border-radius: 15px 15px 0px 0px !important;
     --urlbar-container-padding: 0px !important;
     --urlbar-margin-inline: 10px !important;
@@ -21,31 +25,32 @@
     --toolbar-field-focus-background-color: rgb(37, 36, 37) !important;
     --chrome-content-separator-color: var(--mainColour) !important;
     --toolbar-bgcolor: var(--mainColour) !important;
-    --focus-outline-width: 2.5px !important;
-    --focus-outline-color: white !important;
-    
+    /* --focus-outline-width: .5px !important;
+    --focus-outline-color: white !important; */
+    --color-accent-primary: var(--noir-secondary-colour) !important;
+
+
+
+    --arrowpanel-border-color: transparent !important;
+    --arrowpanel-background: rgb(0, 0, 0, .5) !important;
 }
+
 
 /* URL BAR */
 
 #urlbar-background {
-    border-color: none !important;
-    background-color: transparent !important;
+    outline: none !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
 }
+
 
 #urlbar-background, #urlbar {
     align-items: center;
     border-radius: 12px !important;
-
 }
-
 #urlbar {
     text-align: center;
-    border-radius: 0px;
-    border: 0px;
-    border-color: none !important;
 }
-
 .urlbar-page-action,
 .urlbar-revert-button,
 .urlbar-go-button,
@@ -55,23 +60,21 @@
 .urlbarView-url {
     text-align: left;
 }
-
-
-
 .urlbarView-results {
     text-align: center;
 }
 
-
-
-
 /* Sidebar */
 #sidebar-main {
-    background-color: var(--mainColour) !important;
+    background-color: var(--noir-main-colour) !important;
 }
 
 .sidebar-splitter {
     border: none !important;
+}
+
+#sidebar-button {
+    list-style-image: url("firefox-svgrepo-com.svg") !important;
 }
 
 /* Remove Bookmark Toolbar */
@@ -102,11 +105,11 @@
 }
 
 #TabsToolbar {
-    background-color: var(--mainColour) !important;
+    background-color: var(--noir-main-colour) !important;
 }
 
 #nav-bar {
-    background-color: var(--mainColour) !important;
+    background-color: var(--noir-main-colour) !important;
 }
 
 /* Misc */
@@ -133,4 +136,12 @@
 menupopup,
 .menupopup-arrowscrollbox {
     border-radius: 10px !important;
+    border: none;
+    border-color: transparent;
+}
+
+menupopup{
+    --panel-background: var(--noir-main-transparent-colour) !important;                                
+    --panel-color: rgb(255, 255, 255,) !important;  
+    --panel-border-color: transparent !important;
 }
